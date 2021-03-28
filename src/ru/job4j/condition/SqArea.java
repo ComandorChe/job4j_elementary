@@ -12,5 +12,12 @@ public class SqArea {
         System.out.println(" p = 4, k = 1, s = 1, real = " + result1);
         double result2 = SqArea.square(6, 2);
         System.out.println(" p = 6, k = 2, s = 2, real = " + result2);
+        double result3 = SqArea.square(8, 3);
+        System.out.println(" p = 8, k = 3, s = 3, real = " + result3);
+        double result4 = SqArea.square(15, 4);
+        System.out.println(" p = 15, k = 4, s = 9, real = " + result4);
+        double result5 = SqArea.square(30, 5);
+        System.out.println(" p = 30, k = 5, s = 31.25, real = " + result5);
+
     }
 }
